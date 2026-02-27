@@ -16,7 +16,7 @@ scoreboard objectives add iron_pickaxe_craft minecraft.crafted:minecraft.iron_pi
 scoreboard objectives add ender_eye_craft minecraft.crafted:minecraft.ender_eye
 
 # --- Global variables (preserve values across reloads) ---
-execute unless score $timer rain_timer matches 1.. run scoreboard players set $timer rain_timer 30
+execute unless score $timer rain_timer matches 1.. run scoreboard players set $timer rain_timer 300
 execute unless score $global dragon_dead matches 0.. run scoreboard players set $global dragon_dead 0
 scoreboard players set $tick ticks 0
 scoreboard players set $c60 disp 60

@@ -12,7 +12,7 @@ function op_rain:check_stages
 # --- Rain countdown timer ---
 scoreboard players remove $timer rain_timer 1
 execute if score $timer rain_timer matches ..0 run function op_rain:rain_trigger
-execute if score $timer rain_timer matches ..0 run scoreboard players set $timer rain_timer 30
+execute if score $timer rain_timer matches ..0 run scoreboard players set $timer rain_timer 300
 
 # --- Actionbar display ---
 function op_rain:display
