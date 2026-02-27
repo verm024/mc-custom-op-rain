@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item", "name": "minecraft:netherite_sword", "weight": 6,
+          "functions": [{"function": "minecraft:set_enchantments", "enchantments": {"minecraft:sharpness": 5}}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:netherite_helmet", "weight": 5,
+          "functions": [{"function": "minecraft:set_enchantments", "enchantments": {"minecraft:protection": 4}}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:netherite_chestplate", "weight": 4,
+          "functions": [{"function": "minecraft:set_enchantments", "enchantments": {"minecraft:protection": 4}}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:netherite_leggings", "weight": 4,
+          "functions": [{"function": "minecraft:set_enchantments", "enchantments": {"minecraft:protection": 4}}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:netherite_boots", "weight": 5,
+          "functions": [{"function": "minecraft:set_enchantments", "enchantments": {"minecraft:protection": 4}}]
+        },
+        {"type": "minecraft:item", "name": "minecraft:totem_of_undying",        "weight": 4},
+        {"type": "minecraft:item", "name": "minecraft:enchanted_golden_apple",  "weight": 2},
+        {
+          "type": "minecraft:item", "name": "minecraft:potion", "weight": 6,
+          "functions": [{"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:strong_healing\"}"}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:arrow", "weight": 8,
+          "functions": [{"function": "minecraft:set_count", "count": {"min": 16, "max": 32}}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:firework_rocket", "weight": 7,
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"min": 8, "max": 16}},
+            {"function": "minecraft:set_nbt",   "tag": "{Fireworks:{Flight:3}}"}
+          ]
+        }
+      ]
+    }
+  ]
+}
