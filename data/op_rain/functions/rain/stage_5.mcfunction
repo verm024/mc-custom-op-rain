@@ -1,0 +1,19 @@
+# Stage 5 – Final Boss Rain (18 drops)
+loot spawn ~-8 ~15 ~0 loot op_rain:stage_5
+loot spawn ~8 ~15 ~0 loot op_rain:stage_5
+loot spawn ~0 ~15 ~-8 loot op_rain:stage_5
+loot spawn ~0 ~15 ~8 loot op_rain:stage_5
+loot spawn ~-6 ~15 ~-6 loot op_rain:stage_5
+loot spawn ~6 ~15 ~6 loot op_rain:stage_5
+loot spawn ~-4 ~15 ~8 loot op_rain:stage_5
+loot spawn ~4 ~15 ~-8 loot op_rain:stage_5
+loot spawn ~9 ~15 ~4 loot op_rain:stage_5
+loot spawn ~-9 ~15 ~-4 loot op_rain:stage_5
+loot spawn ~-3 ~15 ~9 loot op_rain:stage_5
+loot spawn ~3 ~15 ~-9 loot op_rain:stage_5
+loot spawn ~7 ~15 ~-7 loot op_rain:stage_5
+loot spawn ~-7 ~15 ~7 loot op_rain:stage_5
+loot spawn ~-10 ~15 ~4 loot op_rain:stage_5
+loot spawn ~10 ~15 ~-4 loot op_rain:stage_5
+loot spawn ~5 ~15 ~10 loot op_rain:stage_5
+loot spawn ~-5 ~15 ~-10 loot op_rain:stage_5
